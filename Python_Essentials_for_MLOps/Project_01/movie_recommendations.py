@@ -9,7 +9,7 @@ from IPython.display import display
 
 # https://files.grouplens.org/datasets/movielens/ml-25m.zip
 # Using pandas to open
-movies = pd.read_csv('movies.csv')
+movies = pd.read_csv('Python_Essentials_for_MLOps/Project_01/movies.csv')
 
 movies.head()
 
@@ -24,6 +24,7 @@ print(movies)
 vectorizer = TfidfVectorizer(ngram_range=(1,2))
 
 tfidf = vectorizer.fit_transform(movies["clean_title"])
+
 
 def search(title):
     """ DESCRIPTION"""
@@ -47,15 +48,16 @@ movie_input = widgets.Text(
 )
 movie_list = widgets.Output()
 
-def on_type(data):
-    """#ODO:description"""
-    with movie_list:
-        movie_list.clear_output()
-        title = data["new"]
-        if len(title) > 5:
-            display(search(title))
 
-movie_input.observe(on_type, names='value')
+# def on_type(data):
+#     """#ODO:description"""
+#     with movie_list:
+#         movie_list.clear_output()
+#         title = data["new"]
+#         if len(title) > 5:
+#             display(search(title))
+
+# movie_input.observe(on_type, names='value')
 
 
 display(movie_input, movie_list)
@@ -63,7 +65,7 @@ MOVIE_ID = 89745
 
 # def find_similar_movies(movie_id):
 # movie = movies[movies["movieId"] == movie_id]
-ratings = pd.read_csv("ratings.csv")
+
 
 # print(ratings.dtypes)
 
@@ -89,6 +91,7 @@ ratings = pd.read_csv("ratings.csv")
 
 def find_similar_movies(movie_id):
     """ DESCRIPTION"""
+    ratings = pd.read_csv("Python_Essentials_for_MLOps/Project_01/ratings.csv")
     similar_users = ratings[(ratings["movieId"] == movie_id) &
                             (ratings["rating"] > 4)]["userId"].unique()
     similar_user_recs = ratings[(ratings["userId"].isin(similar_users)) &
@@ -116,14 +119,15 @@ movie_name_input = widgets.Text(
 
 recommendation_list = widgets.Output()
 
-# def on_type(data):
-#     with recommendation_list:
-#         recommendation_list.clear_output()
-#         title = data["new"]
-#         if len(title) > 5:
-#             results = search(title)
-#             movie_id = results.iloc[0]["movieId"]
-#             display(find_similar_movies(movie_id))
+def on_type(data):
+    """DESCRIPTION"""
+    with recommendation_list:
+        recommendation_list.clear_output()
+        title = data["new"]
+        if len(title) > 5:
+            results = search(title)
+            movie_id = results.iloc[0]["movieId"]
+            display(find_similar_movies(movie_id))
 
 movie_name_input.observe(on_type, names='value')
 
