@@ -1,0 +1,37 @@
+2023-10-10:10:22:29 INFO     [movie_recommendations.py:122] Your successfully import the data!
+2023-10-10:10:22:29 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:22:36 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:22:36 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:22:43 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:24:50 INFO     [movie_recommendations.py:122] Your successfully import the data!
+2023-10-10:10:24:50 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:24:56 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:24:56 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:25:03 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:25:16 DEBUG    [movie_recommendations.py:165] Entered in search function.
+2023-10-10:10:25:16 INFO     [movie_recommendations.py:169] Successfuly nstatiate a TfidVectorizer with a unigram and bigram
+2023-10-10:10:25:16 INFO     [movie_recommendations.py:173] Successfully used in your titles
+2023-10-10:10:25:16 INFO     [movie_recommendations.py:176] Successfully got clean titles.
+2023-10-10:10:25:16 DEBUG    [movie_recommendations.py:183] Exiting the search function returning similar tittles.
+2023-10-10:10:25:16 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:25:23 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:25:46 INFO     [movie_recommendations.py:122] Your successfully import the data!
+2023-10-10:10:25:46 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:25:53 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:25:53 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:26:00 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:26:07 DEBUG    [movie_recommendations.py:165] Entered in search function.
+2023-10-10:10:26:07 INFO     [movie_recommendations.py:169] Successfuly nstatiate a TfidVectorizer with a unigram and bigram
+2023-10-10:10:26:08 INFO     [movie_recommendations.py:173] Successfully used in your titles
+2023-10-10:10:26:08 INFO     [movie_recommendations.py:176] Successfully got clean titles.
+2023-10-10:10:26:08 DEBUG    [movie_recommendations.py:183] Exiting the search function returning similar tittles.
+2023-10-10:10:26:08 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:26:14 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
+2023-10-10:10:26:59 INFO     [movie_recommendations.py:122] Your successfully import the data!
+2023-10-10:10:27:17 DEBUG    [movie_recommendations.py:165] Entered in search function.
+2023-10-10:10:27:17 INFO     [movie_recommendations.py:169] Successfuly nstatiate a TfidVectorizer with a unigram and bigram
+2023-10-10:10:27:18 INFO     [movie_recommendations.py:173] Successfully used in your titles
+2023-10-10:10:27:18 INFO     [movie_recommendations.py:176] Successfully got clean titles.
+2023-10-10:10:27:18 DEBUG    [movie_recommendations.py:183] Exiting the search function returning similar tittles.
+2023-10-10:10:27:18 DEBUG    [movie_recommendations.py:219] Entered in search function.
+2023-10-10:10:27:24 DEBUG    [movie_recommendations.py:238] Exiting the search function returning similar movies.
